@@ -1,0 +1,28 @@
+/* styles/Header.module.css */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .navItem a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navItem a:hover {
+    background-color: #555;
+    border-radius: 5px;
+  }
+  

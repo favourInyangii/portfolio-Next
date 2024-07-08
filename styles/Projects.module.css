@@ -1,0 +1,16 @@
+.main {
+    padding: 20px;
+  }
+  
+  .projectsList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .project {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
